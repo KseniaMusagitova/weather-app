@@ -19,27 +19,38 @@ weather_app/
 Installation Instructions:
 
 Clone the repository using: git clone https://github.com/your-username/weather-app.git
+
 Navigate to the project directory: cd weather-app
+
 Create a virtual environment: python -m venv venv
+
 Activate the virtual environment:
+
 For Windows: venv\Scripts\activate
+
 For macOS/Linux: source venv/bin/activate
+
 Install dependencies: pip install -r requirements.txt
+
 Apply migrations: python manage.py migrate
+
 Run the server: python manage.py runserver
+
 OpenWeatherMap API Key Configuration:
 
 Obtain an API key from OpenWeatherMap.
 Paste the API key into the APPID variable in the views.py file.
+
 Usage:
 
 Run the server: python manage.py runserver.
 Open a browser and go to http://127.0.0.1:8000/.
 Enter the city name in the form and click "Add City" to display the current weather.
-Dependencies:
 
+Dependencies:
 Django==3.2
 requests==2.26.0
+
 License:
 This project is distributed under the MIT License - see the LICENSE file for details.
 
